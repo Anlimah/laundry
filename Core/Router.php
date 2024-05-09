@@ -1,12 +1,14 @@
 <?php
 
+namespace Core;
+
 class Router
 {
     private $routes = [];
 
     function route($method, $route, $callback)
     {
-        $routes[$method][$route] = $callback;
+        $this->routes[$method][$route] = $callback;
     }
 
     function handle()

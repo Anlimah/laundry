@@ -14,11 +14,19 @@ class ComposerStaticInit6cc4aee2a6706c379d48fe20f20a3aac
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
-            'Src\\' => 4,
+        ),
+        'M' => 
+        array (
+            'Model\\' => 6,
         ),
         'D' => 
         array (
             'Dotenv\\' => 7,
+        ),
+        'C' => 
+        array (
+            'Core\\' => 5,
+            'Controller\\' => 11,
         ),
     );
 
@@ -27,13 +35,21 @@ class ComposerStaticInit6cc4aee2a6706c379d48fe20f20a3aac
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-ctype',
         ),
-        'Src\\' => 
+        'Model\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/src',
+            0 => __DIR__ . '/../..' . '/Model',
         ),
         'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'Core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Core',
+        ),
+        'Controller\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Controller',
         ),
     );
 
